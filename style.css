@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    display: flex;
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin: auto;
+    max-width: 375px;
+    padding: 25px;
+}
+
+.img_star {
+    border-radius: 100%;
+    padding: 10px;
+    background-color: hsl(180, 1%, 23%);
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-flex;
+    border-radius: 50%;
+    background-color: hsl(210, 11%, 22%);
+    color: hsl(217, 12%, 63%);
+    padding: 20px 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 18px 15px 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+.active {
+    background-color: gray;
+    color: white;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    padding: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank_card {
+    text-align: center;
+    
+}
+
+.rating_selected {
+    display: block;
+    color: hsl(25, 97%, 53%);
+    border-radius: 10px;
+    width: max-content;
+    background-color: rgb(73, 70, 70);
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+
+.hidden {
+    display: none;
+}
+
